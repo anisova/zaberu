@@ -790,6 +790,7 @@ img {
 .contacts__car {
   border: none;
   margin-bottom: 46px;
+  padding-bottom: 0;
 }
 
 .contacts__phones {
@@ -1149,6 +1150,10 @@ img {
     margin-bottom: 20px;
   }
 
+  .services__column {
+    width: 90%;
+  }
+
   .services__utilization {
     width: 80%;
     padding: 50px 20px 0 20px;
@@ -1254,6 +1259,10 @@ img {
     margin-top: 50px;
   }
 
+  .contacts__schedule {
+    line-height: 1.5;
+  }
+
   .contacts__socials {
     margin-top: 30px;
   }
@@ -1306,6 +1315,10 @@ img {
 
   .flat-type__item:last-child {
     margin: 0;
+  }
+
+  .footer {
+    padding: 30px 0 30px 0;
   }
 }
 
@@ -1450,6 +1463,16 @@ img {
 
   .flat-type__item {
     width: 90%;
+  }
+
+  .contacts__phones {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
