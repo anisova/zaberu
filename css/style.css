@@ -201,6 +201,7 @@ img {
 .offer {
   background: url("../img/bg1.png") no-repeat center top/cover;
   height: 742px;
+  width: 100%;
 }
 
 .offer__block {
@@ -273,14 +274,14 @@ img {
           align-items: flex-end;
   padding: 32px 32px 0 23px;
   height: 106px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .header__left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
   padding-bottom: 10px;
 }
 
@@ -414,16 +415,16 @@ img {
   position: absolute;
   top: 160px;
   left: -20px;
-  border-right: 20px solid white;
-  border-bottom: 20px solid white;
+  border: 20px solid white;
+  border-left: none;
 }
 
 .about__image_front-right {
   position: absolute;
   top: 160px;
   right: -20px;
-  border-left: 20px solid white;
-  border-bottom: 20px solid white;
+  border: 20px solid white;
+  border-right: none;
 }
 
 .about__text {
@@ -875,6 +876,93 @@ img {
 
 .footer__logo {
   font-size: 24px;
+}
+
+@media (max-width: 1100px) {
+  .offer {
+    height: 600px;
+  }
+
+  .header__logo {
+    margin-right: 20px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .socials_header {
+    padding-left: 20px;
+  }
+
+  .socials__item {
+    margin-right: 20px;
+  }
+
+  .phone {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .header__left {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 15px 0 23px;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn {
+    padding: 16px 30px;
+    font-weight: 400;
+  }
+
+  .socials__item {
+    margin-right: 10px;
+  }
+
+  .phone {
+    font-size: 15px;
+    letter-spacing: 0.9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__left {
+    display: none;
+  }
+
+  .header__right > .socials {
+    display: none;
+  }
+
+  .header__right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .phone {
+    margin-bottom: 15px;
+  }
 }
 
 .webp .offer { background: url(../img/bg1.webp) no-repeat center top/cover; }
