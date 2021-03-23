@@ -82,7 +82,7 @@
 
 html {
   font-size: 23px;
-  font-family: 'TTHoves',sans-serif;
+  font-family: 'TTHoves', sans-serif;
   font-weight: 400;
   color: #252525;
 }
@@ -455,6 +455,7 @@ img {
 
 .advantage__pic {
   margin-right: 20px;
+  margin-top: 2px;
 }
 
 .advantage:last-child {
@@ -463,6 +464,7 @@ img {
 
 .advantage__text {
   width: 80%;
+  letter-spacing: 0.5px;
 }
 
 .advantages__block {
@@ -634,7 +636,7 @@ img {
 
 .card__desc {
   margin: 39px 0 0px 0;
-  letter-spacing: 1px;
+  letter-spacing: 0.4px;
   line-height: 1.6;
 }
 
@@ -644,13 +646,13 @@ img {
 
 .card__price-block {
   border-top: 2px solid #0aa20a;
-  margin-top: 44px;
+  margin-top: 38px;
   min-height: 100px;
 }
 
 .card__price-block_export {
   min-height: 140px;
-  margin-top: 22px;
+  margin-top: 29px;
 }
 
 .card__price-list {
@@ -707,7 +709,6 @@ img {
 
 .util__list {
   margin: 52px 0 47px 0;
-  padding-left: 20px;
 }
 
 .util__img {
@@ -716,7 +717,6 @@ img {
 
 .util__text {
   line-height: 1.75;
-  list-style-type: decimal;
 }
 
 .util__text span {

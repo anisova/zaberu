@@ -43,25 +43,4 @@ function toggleModal(modalWindow, openButton, closeButton) {
 }
 toggleModal(".modal", ".btn", ".btn-close");
 
-// function formAction () { 
-// let form = document.querySelector('.form');
-
-// form.addEventListener('submit', function(event) {
-// 	let promise = fetch('/ajax/', {
-// 		method: 'POST',
-// 		body: new FormData(this),
-// 	});
-	
-// 	promise.then(
-// 		response => {
-// 			return response.text();
-// 		}
-// 	).then(
-// 		text => {
-// 			alert(text);
-// 		}
-// 	);	
-// 	event.preventDefault();
-// });}
-// formAction();
 
