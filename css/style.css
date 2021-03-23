@@ -1138,6 +1138,10 @@ img {
     font-size: 18px;
   }
 
+  .advantage__pic {
+    margin-top: 0;
+  }
+
   .advantage__text {
     font-size: 20px;
   }
